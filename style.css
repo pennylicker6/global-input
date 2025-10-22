@@ -1,0 +1,11 @@
+#header1 {
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#share {
+  display: block;
+  margin: 0 auto;
+  width: 550px;
+  height: 200px;
+}
