@@ -9,8 +9,8 @@ box.addEventListener("input", () => {
 
 const textArea = document.getElementById("share")
 let words = localStorage.getItem('words') || '';
-textarea.value = words;
-textarea.addEventListener('input', () => {
-    words = textarea.value;
+textArea.value = words;
+textArea.addEventListener('input', () => {
+    words = textArea.value;
     localStorage.setItem('words', words);
 });
